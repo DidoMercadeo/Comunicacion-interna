@@ -20,9 +20,9 @@ const changFoodPosition = () => {
 
 const handleGameOver = () => {
   clearInterval(setIntervalId);
-  alert("¿Peligros existentes en nuestra tarea laboral o en nuestro propio entorno o lugares de trabajo?. a) Riesgo    b) Riesgo biomedico   c) Normas");
+  alert("¿Cuál es el peligro existentes en nuestra tarea laboral o en nuestro propio entorno o lugares de trabajo?. a) Riesgo    b) Tegnologia   c) Normas");
   window.prompt("Respuesta")
-  alert("¿Estándares de obligatorio cumplimiento, que se han establecido con el objetivo de minimizar los riesgos y evitar accidentes de trabajo?.    a) Normas de seguridad    b) Normas   c)Seguridad");
+  alert("¿Cuál es el estándar obligatorio de cumplimiento, que se ha establecido con el objetivo de minimizar los riesgos y evitar accidentes de trabajo?.    a) Normas de seguridad    b) Manual   c)Seguridad");
   window.prompt("Respuesta")
 }
 
